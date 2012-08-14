@@ -1,0 +1,17 @@
+Conversion log
+1. Convert all .mk files in the root directory....
+android.mk
+androidboard.mk
+androidproducts.mk
+boardconfig.mk
+full_vinci.mk
+vinci.mk
+
+2.replace init.rc init.m801_88.rc kernel both .psr files egl.cfg recovery.fstab uvented.m801.rc
+3. /etc files swapped
+4. libasound and libaudio left intact
+5. replaced modules with all files ar6000 ehci-hcd mali
+ohci (tcc88xx_nand replaced with tcc_nand) ufsd ump viqe (all 4 vpu in out ext manager)
+
+6. changed name of product to vh2001 from vinci
+
